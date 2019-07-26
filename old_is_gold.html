@@ -1,0 +1,186 @@
+<!doctype html>
+<html>
+<head>
+<title>abc</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+*{box-sizing: border-box;margin:0px;border:0px;}
+
+
+
+.head{background-image: url("abc.jpg"); width:100%;height:auto;padding:10px;text-align:center;color:snow;}
+
+.nav{background-color:black;width:100%;height:auto;padding:20px;position:sticky;}
+.nav a{color:white; text-decoration:none;width:50px;margin-right:30px;}
+.nav ul{list-style-type:none;}
+.nav li{margin-right:white;padding:20px; width:50px;margin-right:30px;}
+.nav a:active,.nav a:hover{background-color:orange;}
+
+.row{background-image:url("abc.jpg");width:100%;border-radius: 8px;}
+
+.firstcol,.seccol,.thirdcol{BORDER-RIGHT:solid 1px black;width:33%;float:left;MIN-HEIGHT:1000PX; background-color:white;position: relative;}
+.firstcol{background-image:url("c1.jpg");background-repeat:no-repeat;}
+.seccol{color:orange;text-align:center;background-color: rgb(0, 0, 0);}
+.thirdcol{background-image:url("c1.jpg");background-size:cover;}
+
+.footer{background-image:url("abc.jpg");height:auto;width:100%;bottom:0%;padding: 20px;color: snow;text-align: center;}
+
+.lata{position:relative;}
+.lata2{position:relative;}
+
+
+.textabove{position:absolute;bottom: 100%;  left: 0; right: 0;  overflow: hidden; width: 100%;  height:0; 
+        background-image: linear-gradient(to right,rgb(156, 13, 161),rgba(71, 7, 87, 0.959),rgb(0, 0, 0)); transition: .9s ease;}
+
+.lata:hover .textabove{bottom:0;height:100%}
+.lata2:hover .textabove{bottom:0;height:100%}
+
+.text{white-space:nowrap;
+position:absolute;
+overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.text a{font-size:40px;text-decoration:none;text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;}
+button{border: 2px solid black;height:auto;background-color:rgb(212, 0, 255);border-radius: 4px;padding: 10px;cursor:pointer;}
+button:hover{background-color: rgba(98, 12, 138, 0.801);}
+.text2{ color:white;text-decoration: none;}
+
+img{DISplay: block;margin-left: auto;  margin-right: auto;  width: 50%;margin-top:10px;border-radius: 8px;height:auto;}
+
+.image{ display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 10px;
+  height:auto;}
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+
+@media only screen and (min-width:768px){
+        .image{height:200px;}
+        img{height: 200px;;}
+}
+</style>
+</head>
+<body>
+<div class="head">
+<h1>SANGEET KI DUNIYA</h1>
+</div>
+<div class="nav">
+<ul>
+<l1><a target="_blank"href="#">home</a></l1>
+
+<l1><a target="_blank" href="devotion.html">DEVOTION</a></l1>
+
+<l1><a  href="first.html">MY MUSIC</a></l1>
+</ul>
+</DIV>
+<div class="row">
+	<div class="firstcol col-4">
+
+        <div class="lata">
+	<img src="Lata.jpg" alt="pic1" width="200px" height="200px">&nbsp&nbsp&nbsp&nbsp<center><b><div class="text2">LATA MANGESHKAR</div></b></center>
+        <div class="textabove">
+     <div class="text"><a target="_blank" href="lata.html"><button>lata songs</button></a></div></div></div>
+        
+       <div class="lata">
+	<img src="bh.jpg" alt="pic1" width="200px" height="200px"><CENTER><b><div class="text2">ASHA BHOSLE</div></b></center>
+        <div class="textabove">
+     <div class="text"><a target="_blank" href="#"><button>asha bhosle songs</button></a></div></div></div>
+        
+
+
+<div class="lata">
+	<img src="rafi.jpg" alt="pic1" width="200px" height="200px"><CENTER><div class="text2"><b>MOHAMMAD RAFI</b></div></center>
+        <div class="textabove">
+     <div class="text"><a target="_blank" href="#"><button>mohammad rafi songs<button></a></div></div></div>
+        
+
+
+
+</div>
+
+      
+<div class="seccol col-4">
+
+        <h1>TAGORE AND MUSIC<h1>
+                <div class="lata">
+                <img src="tagore.jpg" alt="pic1" width="33%">&nbsp&nbsp&nbsp&nbsp<center><b><div class="text2">RABINDRA NATH TAGORE MUSIC:</div></b></center></div>
+
+                <div class="lata">
+        <a target="_blank" href="r1.jpg">
+                <img src="r1.jpg" alt="pic1" width="33%"></div></a>
+    
+</div>
+
+
+<div class="thirdcol col-4">
+
+         <div class="lata2">
+                <img src="mukesh.jpeg" alt="pic1" width="200px" height="200px" class="image">&nbsp&nbsp&nbsp&nbsp<center><b><div class="text2">MUKESH</div></b></center>
+                <div class="textabove">
+        <div class="text"><a target="_blank" href="#"><button>mukesh songs</button></a></div></div></div>       
+
+
+        <div class="lata2">
+                <img src="rehman.jpeg" alt="pic1" width="200px" height="200px" class="image">&nbsp&nbsp&nbsp&nbsp<center><b><div class="text2">AR REHMAAN</div></b></center>
+                <div class="textabove">
+        <div class="text"><a target="_blank" href="#"><button>REHMAN songs</button></a></div></div></div>
+                
+
+
+        <div class="lata2">
+                <img src="monali.jpeg" alt="pic1" width="200px" height="200px"class="image">&nbsp&nbsp&nbsp&nbsp<center><b><div class="text2">MONALI THAKUR</div></b></center>
+                <div class="textabove">
+        <div class="text"><a target="_blank" href="#"><button>MONALI songs</button></a></div></div></div>
+                </div>
+
+</div>
+
+<div class="footer">
+<P>THANKS FOR VISITING</P>
+</div>
+
+
+</body>
+</html>
+
